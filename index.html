@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Youtube</title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="toggle-btn">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <img src="./icons/youtube (1).png" class="logo" alt="youtube logo" />
+      <div class="search-box">
+        <input type="text" class="search-bar" placeholder="search" />
+        <button class="search-btn">
+          <img src="./icons/search.png" alt="search-bar" />
+        </button>
+      </div>
+      <div class="user-option">
+        <img src="./icons/video.png" class="icon icon1" alt="" />
+        <img src="./icons/app (1).png" class="icon icon2" alt="" />
+        <img src="./icons/notification.png" class="icon icon3" alt="" />
+        <div class="user-dp">
+          <img
+            src="https://png.pngitem.com/pimgs/s/38-380589_one-piece-luffy-chibi-hd-png-download.png"
+            alt="my dp"
+          />
+        </div>
+      </div>
+    </nav>
+    <!-- sidebar -->
+    <div class="side-bar">
+      <a href="#" class="links active"
+        ><img src="./icons/home.png" alt="" />home</a
+      >
+      <a
+        href="https://www.youtube.com/feed/trending?bp=6gQJRkVleHBsb3Jl"
+        class="links"
+        ><img src="./icons/eplore.png" alt="" />explore</a
+      >
+      <a href="https://www.youtube.com/feed/subscriptions" class="links"
+        ><img src="./icons/subcribe.png" alt="" />subscribe</a
+      >
+      <hr class="seperator" />
+      <a href="https://www.youtube.com/feed/library" class="links"
+        ><img src="./icons/libary.png" alt="" />libary</a
+      >
+      <a href="https://www.youtube.com/feed/history" class="links"
+        ><img src="./icons/history.png" alt="" />history</a
+      >
+      <a href="#" class="links"
+        ><img src="./icons/yourvideo.png" alt="" />your video</a
+      >
+      <a href="https://www.youtube.com/playlist?list=WL" class="links"
+        ><img src="./icons/watchlater.png" alt="" />watch later</a
+      >
+      <a href="https://www.youtube.com/playlist?list=LL" class="links"
+        ><img src="./icons/like.png" alt="" />like video</a
+      >
+      <a href="#" class="links"
+        ><img src="./icons/showmore.png" alt="" />show more</a
+      >
+    </div>
+
+    <!-- filter below the nav bar -->
+    <div class="filters">
+      <button class="filter-option active">all</button>
+      <button
+        onclick="window.location.href='https://www.youtube.com/results?search_query=css'"
+        class="filter-option"
+      >
+        css
+      </button>
+      <button
+        onclick="window.location.href='https://www.youtube.com/results?search_query=html'"
+        class="filter-option"
+      >
+        html
+      </button>
+      <button
+        onclick="window.location.href='https://www.youtube.com/results?search_query=javascript+'"
+        class="filter-option"
+      >
+        javascript
+      </button>
+      <button
+        onclick="window.location.href='https://www.youtube.com/results?search_query=full+stack+developer'"
+        class="filter-option"
+      >
+        full stack developer
+      </button>
+      <button
+        onclick="window.location.href='https://www.youtube.com/results?search_query=anime'"
+        class="filter-option"
+      >
+        anime
+      </button>
+      <button
+        onclick="window.location.href='https://www.youtube.com/results?search_query=onepiece'"
+        class="filter-option"
+      >
+        one piece
+      </button>
+      <button
+        onclick="window.location.href='https://www.youtube.com/results?search_query=anime+news'"
+        class="filter-option"
+      >
+        anime news
+      </button>
+      <button
+        onclick="window.location.href='https://www.youtube.com/results?search_query=comedy'"
+        class="filter-option"
+      >
+        comedy
+      </button>
+      <button
+        onclick="window.location.href='https://www.youtube.com/results?search_query=trending+videos'"
+        class="filter-option"
+      >
+        trending video
+      </button>
+    </div>
+
+    <!-- videos container -->
+    <div class="video-container"></div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
